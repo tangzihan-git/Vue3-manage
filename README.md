@@ -1,28 +1,28 @@
 ### 项目介绍
 
-本项目基于 Vue3 + TypeScript + Vite + Element-plus + Pinna + Echarts 实现的通用后台管理系统，可以作为管理系统模板使用，功能强大支持主题切换、JSON表格、页面缓存、常用指令（防抖、节流）等。
+本项目基于 Vue3 + TypeScript + Vite + Element-plus + Pinna + Echarts 实现的通用后台管理系统，可以作为管理系统模板使用，功能强大支持主题切换、JSON 表格、页面缓存、常用指令（防抖、节流）等。
 
 ### 在线预览 👀
 
-- Link：https://admin.spicyboy.cn
+- http://vue.aichat.ren/
 
 ### 代码仓库
 
-给个start呗
-- GitHub：https://github.com/tangzihan-git/Vue3-manage
+给个 start 呗
 
+- GitHub：https://github.com/tangzihan-git/Vue3-manage
 
 ### 主要功能介绍
 
 - 使用 Vue3 + TypeScript 开发
-- 采用 Vite 作为构建工具配置了TSX、跨域、Gzip、去除console等
-- 对Axios进行二次封装，实现了请求拦截、token无感刷新、取消重复请求等
-- 状态管理采用Pinia，支持持久化配置
+- 采用 Vite 作为构建工具配置了 TSX、跨域、Gzip、去除 console 等
+- 对 Axios 进行二次封装，实现了请求拦截、token 无感刷新、取消重复请求等
+- 状态管理采用 Pinia，支持持久化配置
 - 支持主题配置，如布局切换、颜色切换、全局管理组件大小
-- 支持i18n国际化
-- VueRouter方面有路由拦截、权限相关、动态路由、路由懒加载
+- 支持 i18n 国际化
+- VueRouter 方面有路由拦截、权限相关、动态路由、路由懒加载
 - 内置常用指令权限指令、防抖指令、节流指令、复制指令
-- 支持代码规范（不需要可关闭）采用 ESLint、Stylelint校验
+- 支持代码规范（不需要可关闭）采用 ESLint、Stylelint 校验
 - 使用 husky、lint-staged、commitlint、czg、cz-git 规范提交信息
 
 ### 如何使用
@@ -42,12 +42,12 @@ npm i
 
 **第三步**
 
-
 ```text
 npm run dev
 ```
 
 ### 系统环境说明
+
 系统支持开发、测试、生产三个环境，对应的环境变量在项目根目录
 .env.development 开发环境
 .env.production 生产环境
@@ -66,11 +66,7 @@ npm run lint:prettier
 npm run lint:stylelint
 ```
 
-
-
-### 项目截图 
-
-
+### 项目截图
 
 ### 项目架构
 
@@ -124,23 +120,9 @@ Vue3-manage
 └─ vite.config.ts         # vite 全局配置文件
 ```
 
+### 后端接口
 
-### 项目后台接口 🧩
-
-项目后台接口完全采用 Mock 数据，感谢以下 Mock 平台支持：
+接口采用 mock 数据
 
 - FastMock： https://www.fastmock.site
 - EasyMock：https://mock.mengxuegu.com
-
-
-
-### 捐赠 
-
-如果你正在使用这个项目或者喜欢这个项目的，可以通过以下方式支持我：
-
-- Star、Fork、Watch 一键三连 🚀
-- 通过微信、支付宝一次性捐款 ❤
-
-|                                        微信                                        |                                       支付宝                                       |
-| :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| <img src="https://i.imgtg.com/2023/01/16/QRzBX.png" alt="Alipay QRcode" width=170> | <img src="https://i.imgtg.com/2023/01/16/QRFZt.png" alt="Wechat QRcode" width=170> |
